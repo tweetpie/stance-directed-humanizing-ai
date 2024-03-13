@@ -6,11 +6,10 @@ Welcome to the **Stance-Directed Humanizing AI** repository. This project aims t
 
 Our study introduces a novel pipeline to train Large Language Models (LLM) for generating tweets that are not only relevant to given aspects and entities but also aligned with healthier discourse and constructive sentiments. This pipeline utilizes a toxic content classifier to ensure generated tweets are non-toxic and employs a stance-aware aspect-based sentiment analysis (ABSA) model to extract stances from these tweets, promoting a more civil and humanized interaction on social media platforms where it is demonstrated on contentious real-world Twitter dataset on U.S. race relations.
 
-![Communities](images/communities.png?raw=true "The communities and entities in the U.S")
-
+<p align="center"><img src="./images/communities.png" width="500px"></p>
 
 ## Key Components
-![Pipeline](images/pipeline.pdf?raw=true "The pipeline for generating humanized tweets, classifying toxicity, and extracting stances")
+<p align="center"><img src="./images/pipeline.png" width="500px"></p>
 
 1. **[Stance-Directed Tweet Generator](https://huggingface.co/tweetpie/stance-directed-tweet-generator)**: Based on aspects and entities, this model generates tweets that aim to reflect humanized and constructive discourse.
 2. **[Toxic Content Classifier](https://huggingface.co/tweetpie/toxic-content-detector)**: This component classifies the generated tweets as toxic or non-toxic, ensuring the promotion of positive engagement.
@@ -22,7 +21,7 @@ The study incorporates five datasets:
 - **[TrainTweetsForHumanizedLLM.csv](data/TrainTweetsForHumanizedLLM.csv)** and **[TrainTweetsForUnrestrictedLLM.csv](data/TrainTweetsForUnrestrictedLLM.csv)**: Training data for humanized and unrestricted LLMs respectively.
 - **[ToxicClassifierDataset.csv](data/ToxicClassifierDataset.csv)**: Training data for the toxic content classifier.
 - **[GoldToxicDataset.csv](data/GoldToxicDataset.csv)**: Golden outputs for evaluating the toxicity classifier's performance, labelled by 3 annotators with a Krippendorff's alpha nominal score of 0.73, indicating a good level of inter-annotator agreement.
-- **[GeneratedOutputsWithLabels.csv](data/GeneratedOutputsWithLabels.csv)**: The generated tweets using humanized and unrestricted LLMs labelled by 3 annotators and provided with classifier model predictions, indicating a Krippendorff's alpha nominal score of 0.75, further showing a reliable consensus among annotators.
+- **[GeneratedOutputsWithLabels.csv](data/GeneratedOutputsWithLabes.csv)**: The generated tweets using humanized and unrestricted LLMs labelled by 3 annotators and provided with classifier model predictions, indicating a Krippendorff's alpha nominal score of 0.75, further showing a reliable consensus among annotators.
 
 ## Using This Repository
 
