@@ -1,10 +1,9 @@
 # Towards a Programmable Humanizing AI through Scalable Stance-Directed Architecture
 
-Welcome to the **Stance-Directed Humanizing AI** repository. This project aims to reduce the generation of toxic narratives in digital communications by leveraging the power of generative artificial intelligence (AI) fine-tuned on positive human values. Our approach emphasizes the importance of fostering social cohesion and understanding through language, counteracting the spread of harmful content online.
+Welcome to the **Stance-Directed Humanizing AI** repository. The proposed pipeline aims to reduce the generation of toxic narratives in digital communications by leveraging the power of generative artificial intelligence (AI) fine-tuned on positive human values. Our approach emphasizes the importance of fostering social cohesion and understanding through language, counteracting the spread of harmful content online.
+![sample_usage.gif](images/sample_usage.gif)
 
-## About the Project
-
-Our study introduces a novel pipeline to train Large Language Models (LLM) for generating tweets that are not only relevant to given aspects and entities but also aligned with healthier discourse and constructive sentiments. This pipeline utilizes a toxic content classifier to ensure generated tweets are non-toxic and employs a stance-aware aspect-based sentiment analysis (ABSA) model to extract stances from these tweets, promoting a more civil and humanized interaction on social media platforms where it is demonstrated on contentious real-world Twitter dataset on U.S. race relations.
+This study introduces a novel pipeline to train Large Language Models (LLM) for generating tweets that are not only relevant to given aspects and entities but also aligned with healthier discourse and constructive sentiments. This pipeline utilizes a toxic content classifier to ensure generated tweets are non-toxic and employs a stance-aware aspect-based sentiment analysis (ABSA) model to extract stances from these tweets, promoting a more civil and humanized interaction on social media platforms where it is demonstrated on contentious real-world Twitter dataset on U.S. race relations.
 
 <p align="center"><img src="./images/communities.png" width="500px"></p>
 
@@ -45,9 +44,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Example Usage
-![sample_usage.gif](images/sample_usage.gif)
 ```plaintext
+Sample input/output:
+
 Ideology: Left
 Pro Entities: ['migrant worker rights groups']
 Anti Entities: ['labor exploitation']
