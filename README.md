@@ -16,7 +16,7 @@ This study introduces a novel pipeline to train Large Language Models (LLM) for 
 
 ## Datasets
 
-The study incorporates five datasets:
+The study incorporates six datasets:
 - **[TrainTweetsForHumanizedLLM.csv](data/TrainTweetsForHumanizedLLM.csv)** and **[TrainTweetsForUnrestrictedLLM.csv](data/TrainTweetsForUnrestrictedLLM.csv)**: Training data for humanized and unrestricted LLMs respectively.
 - **[ToxicClassifierDataset.csv](data/ToxicClassifierDataset.csv)**: Training data for the toxic content classifier.
 - **[GoldToxicDataset.csv](data/GoldToxicDataset.csv)**: Golden outputs for evaluating the toxicity classifier's performance, labelled by 3 annotators with a Krippendorff's alpha nominal score of 0.73, indicating a good level of inter-annotator agreement.
