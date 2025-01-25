@@ -23,7 +23,7 @@ The study incorporates six datasets:
 - **[GoldToxicDataset.csv](data/GoldToxicDataset.csv)**: Golden outputs for evaluating the toxicity classifier's performance, labelled by 3 annotators with a Krippendorff's alpha nominal score of 0.73, indicating a good level of inter-annotator agreement.
 - **[GeneratedOutputsWithLabels.csv](data/GeneratedOutputsWithLabes.csv)**: The generated tweets using humanized and unrestricted LLMs labelled by 3 annotators and provided with classifier model predictions, indicating a Krippendorff's alpha nominal score of 0.75, further showing a reliable consensus among annotators.
 - **[UserIDwithCommunityLabels.csv](data/UserIDwithCommunityLabels.csv)**: User IDs and their assigned community labels.
-- **[GeneratedOutputsWithLabes.csv](data/GeneratedOutputsWithLabes.csv)**: The relatedness and toxicity results of the Humanized LLM, ChatGPT 4o, Gemini, Claude, and Mistral Large models on equally balanced left and right ideology prompts.
+- **[GeneratedOutputsWithLabels.csv](data/GeneratedOutputsWithLabels.csv)**: The relatedness and toxicity results of the Humanized LLM, ChatGPT 4o, Gemini, Claude, and Mistral Large models on equally balanced left and right ideology prompts.
 
 ## Using This Repository
 
