@@ -1,4 +1,5 @@
 # Towards a Programmable Humanizing AI through Scalable Stance-Directed Architecture
+[https://dx.doi.org/10.1109/MIC.2024.3450090](https://dx.doi.org/10.1109/MIC.2024.3450090)
 
 Welcome to the **Stance-Directed Humanizing AI** repository. The proposed pipeline aims to reduce the generation of toxic narratives in digital communications by leveraging the power of generative artificial intelligence (AI) fine-tuned on positive human values. Our approach emphasizes the importance of fostering social cohesion and understanding through language, counteracting the spread of harmful content online.
 ![sample_usage.gif](images/sample_usage.gif)
@@ -78,10 +79,13 @@ If you use our work, please cite our paper:
 ```bibtex
 @article{ccetinkaya2024towards,
   title={Towards a Programmable Humanizing AI through Scalable Stance-Directed Architecture},
-  author={{\c{C}}etinkaya, Yusuf M{\"u}cahit and Lee, Yeonjung and K{\"u}lah, Emre and Toroslu, {\.I}smail Hakk{\i} and Cowan, Michael A. and Davulcu, Hasan},
-  journal={},
+  author={{\c{C}}etinkaya, Yusuf M{\"u}cahit and Lee, Yeonjung and K{\"u}lah, Emre and Toroslu, {\.I}smail Hakk{\i} and Cowan, Michael A and Davulcu, Hasan},
+  journal={IEEE Internet Computing},
   year={2024},
-  volume={}
+  volume={28},
+  number={5},
+  pages={20-27},
+  doi={10.1109/MIC.2024.3450090}
 }
 ```
 
