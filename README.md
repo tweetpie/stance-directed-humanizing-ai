@@ -1,6 +1,8 @@
 # Towards a Programmable Humanizing AI through Scalable Stance-Directed Architecture
 [https://dx.doi.org/10.1109/MIC.2024.3450090](https://dx.doi.org/10.1109/MIC.2024.3450090)
 
+For more information about the study, you may want to watch the presentation: [https://www.youtube.com/watch?v=H1csVRxwAFU](https://www.youtube.com/watch?v=H1csVRxwAFU)
+
 Welcome to the **Stance-Directed Humanizing AI** repository. The proposed pipeline aims to reduce the generation of toxic narratives in digital communications by leveraging the power of generative artificial intelligence (AI) fine-tuned on positive human values. Our approach emphasizes the importance of fostering social cohesion and understanding through language, counteracting the spread of harmful content online.
 ![sample_usage.gif](images/sample_usage.gif)
 
